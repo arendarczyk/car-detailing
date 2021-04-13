@@ -2,7 +2,7 @@
 
 The website shows car detailing services. I made the design myself.
 
-[Page template]()
+[Page template](https://arendarczyk.github.io/car-detailing/)
 
 
 ## Project Pupose and Goal
