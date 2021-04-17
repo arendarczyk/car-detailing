@@ -1,3 +1,21 @@
+//LOADING IMG
+
+const loading = document.querySelector('.loadingWrapper')
+
+window.addEventListener('load',()=>{
+    loading.parentElement.removeChild(loading)
+})
+
+
+//WAITING DOTS
+const dots = document.getElementById('dots')
+setInterval(()=>{
+    dots.textContent+= '.'
+    if(dots.textContent=='....')
+        dots.innerHTML=''
+},300)
+
+//slider
 
 var counter = 1;
 setInterval(function(){
@@ -7,6 +25,8 @@ setInterval(function(){
         counter=1;
     }
 },5000);
+
+//parrallax
 
 const parrallax = document.getElementById('parallax');
 window.addEventListener('scroll', function(){
